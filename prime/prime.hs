@@ -2,7 +2,7 @@
 main :: IO()
 main = do
     n <- read <$> getLine
-    putStrLn $ show $ calc n
+    putStrLn $ show $ reverse $ calc n
 
 calc :: Int -> [Int]
 calc n = loopCalc n 1 [0]
