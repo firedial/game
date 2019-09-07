@@ -35,3 +35,4 @@ isOddPrimeLoop p i
     | p < i * i = True
     | mod p i == 0 = False
     | otherwise = isOddPrimeLoop p $ i + 2
+
